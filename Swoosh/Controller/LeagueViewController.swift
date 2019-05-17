@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LeagueViewController.swift
 //  Swoosh
 //
 //  Created by Jay Phillips on 5/16/19.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LeagueViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-       
-    }
 
+        
+    }
+   
 
 }
-
