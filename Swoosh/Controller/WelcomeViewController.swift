@@ -15,7 +15,10 @@ class WelcomeViewController: UIViewController {
         
        
     }
-
-
+    
+    @IBAction func getStartedButtonWasPressed(_ sender: Any) {
+        performSegue(withIdentifier: "LeagueViewControllerSegue", sender: self)
+    }
+    
 }
 

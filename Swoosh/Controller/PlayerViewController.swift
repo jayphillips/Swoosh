@@ -10,13 +10,17 @@ import UIKit
 
 class PlayerViewController: UIViewController {
 
+    var player: Player!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        print(player.desiredLeague!)
     }
     
+    @IBAction func unwindSegue(segue: UIStoryboardSegue) {
 
    
 
+}
 }
